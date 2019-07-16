@@ -1,7 +1,54 @@
 {
   "RSpec": {
     "coverage": {
+      "/Users/simonyi/Projects/2019_july/telegram_problem/spec/text_formater_spec.rb": [
+        1,
+        null,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        null,
+        null,
+        null
+      ],
+      "/Users/simonyi/Projects/2019_july/telegram_problem/lib/text_formater.rb": [
+        1,
+        1,
+        16,
+        5,
+        11,
+        6,
+        2,
+        null,
+        4,
+        2,
+        null,
+        2,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
     },
-    "timestamp": 1563284527
+    "timestamp": 1563292564
   }
 }
