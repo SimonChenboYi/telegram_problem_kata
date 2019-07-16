@@ -2,6 +2,8 @@
   "RSpec": {
     "coverage": {
       "/Users/simonyi/Projects/2019_july/telegram_problem/spec/text_formater_spec.rb": [
+        null,
+        null,
         1,
         null,
         1,
@@ -24,31 +26,38 @@
         null,
         1,
         1,
+        null,
         null,
         null,
         null
       ],
       "/Users/simonyi/Projects/2019_july/telegram_problem/lib/text_formater.rb": [
+        null,
+        null,
+        null,
         1,
         1,
-        16,
         5,
         11,
+        null,
+        null,
+        null,
+        1,
+        null,
+        1,
+        5,
+        null,
+        null,
+        1,
+        11,
         6,
-        2,
         null,
         4,
-        2,
-        null,
-        2,
-        null,
-        null,
-        null,
         null,
         null,
         null
       ]
     },
-    "timestamp": 1563292564
+    "timestamp": 1563294797
   }
 }

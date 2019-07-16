@@ -3,15 +3,22 @@
 # format the telegram text
 class TextFormater
   def format(number, text)
-    words = text.split("\n").map(&:split)
-    words.map do |line|
-      line.reduce do |accumulate, element|
-        if (accumulate + ' ' + element).size <= number
-          (accumulate + ' ' + element)
-        else
-          accumulate.size <= number - 1 ? accumulate + ' ' : accumulate
-        end
-      end
+    split_lines(text).map do |line_words|
+      combine_words_to_line(line_words, number)
     end.join("\n")
+  end
+
+  private
+
+  def split_lines(text)
+    text.split("\n").map(&:split)
+  end
+
+  def combine_words_to_line(line_words, number)
+    line_words.reduce do |accumulate, element|
+      return (accumulate + ' ' + element) if (accumulate + ' ' + element).size <= number
+
+      accumulate.size <= number - 1 ? accumulate + ' ' : accumulate
+    end
   end
 end
